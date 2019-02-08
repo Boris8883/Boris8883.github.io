@@ -1,0 +1,21 @@
+.container{
+  background: peru;
+  padding: 5px;
+}
+
+.row{
+  background: lime;
+  padding: 5px;
+}
+
+.col{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+/*.row div{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}*/

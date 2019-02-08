@@ -1,0 +1,117 @@
+h1{
+	font-family: arial;
+	text-align: center;
+	font-size: 30px;
+	color: #333;	
+}
+
+h1#some-id{
+	color: orange;
+	font-size: 40px;
+}
+
+h1.some-class{
+	text-decoration: underline;
+}
+
+.some-class{
+	text-decoration: underline;
+}
+
+.list-item{
+	font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}
+
+.some-class.list-item{
+	color: pink;
+}
+
+ol li{
+	font-family: arial;
+	font-size: 26px;
+	color: violet;
+}
+
+table tr:nth-of-type(odd){
+	background: peru;
+}
+
+table tr:nth-of-type(even){
+	background: navy;
+	color: white;
+}
+
+table tr td:nth-of-type(2){
+	text-decoration: underline;
+}
+
+table tr:nth-of-type(3n+5){
+	background: slategray;
+}
+
+table:nth-of-type(2){
+	border-collapse: collapse;
+}
+
+table:first-of-type, table:last-of-type{
+	border: 1px solid green;
+}
+
+
+table:nth-of-type(2) tr:nth-of-type(even){
+	background: skyblue;
+}
+
+p.some-other-class{
+	font-family: arial;
+	color: peru;
+}
+
+p#some-other-id{
+	color: purple;
+}
+
+p.some-other-class{
+	font-family: arial;
+	color: gray;
+}
+
+p{
+	color: navy;
+}
+
+div div div label:first-of-type{
+	text-transform: uppercase;
+}
+
+/*-----Form groups----*/
+.form-group{
+	padding: 10px;
+}
+
+.form-group label{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+}
+
+.form-group input{
+	height: 30px;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid #dadada;
+	display: block;
+	width: 100%;
+}
+/*------*/
+
+.columns-2{
+	width: 50%;
+	float: left;
+}
